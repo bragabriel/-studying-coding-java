@@ -1,8 +1,8 @@
-package Function;
+package function;
 
 import java.util.function.Function;
 
-public class FunctionL {
+public class FunctionEx {
     public static void main(String[] args) {
         Function<Integer, Double> calculo = a -> a * 2d;
 
