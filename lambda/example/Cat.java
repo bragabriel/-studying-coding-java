@@ -1,6 +1,7 @@
-package lambda;
+package lambda.example;
 
-public class Cat implements Printable {
+public class Cat implements Printable, PrintableWithEntry {
+
     public String getName() {
         return name;
     }
@@ -11,10 +12,10 @@ public class Cat implements Printable {
 
     private String name;
 
-//    @Override
-//    public void print() {
-//        System.out.println("Meow 1");
-//    }
+    @Override
+    public void print() {
+        System.out.println("Meow 1");
+    }
 
     @Override
     public void printWithEntry(String suffix) {
