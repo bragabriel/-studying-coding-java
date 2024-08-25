@@ -1,4 +1,4 @@
-package filter;
+package lambda.filter;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class FilterEx {
 
     /*
-    *  O método filter é uma operação intermediária em Java Streams que é utilizada para
+    *  O método lambda.filter é uma operação intermediária em Java Streams que é utilizada para
     *  filtrar elementos com base em uma condição específica. Ele retorna um novo stream
     *  contendo apenas os elementos que atendem à condição de filtragem.
     */
@@ -32,7 +32,7 @@ public class FilterEx {
         hosts.entrySet() //entrySet() é um método da interface Map em Java que retorna um conjunto (set) de entradas do mapa.
                 .stream()
                 .filter(map -> "anuncieon.com".equals(map.getValue()))
-                .forEach( map -> System.out.println( "Resultado filter: " + map.getValue() ) );
+                .forEach( map -> System.out.println( "Resultado lambda.filter: " + map.getValue() ) );
     }
 
     public static void example2_numerosPares(){
