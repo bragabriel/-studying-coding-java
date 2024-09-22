@@ -17,3 +17,4 @@ This repository is intended to store and organize my Java studies. It includes v
 - **Overload**: Method overloading examples.
 - **Predicate**: Working with Predicates in Streams.
 - **Stream**: Stream API and operations.
+- **Threads**
